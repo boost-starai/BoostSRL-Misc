@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 👀 Checkout
-        users: actions/checkout@v2
+        uses: actions/checkout@v2
       - name: 🏗️ Generate Artifacts
         run: |
           bash zip_artifacts.sh
