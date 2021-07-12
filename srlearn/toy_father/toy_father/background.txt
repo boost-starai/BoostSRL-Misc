@@ -1,0 +1,4 @@
+male(+name).
+childof(+name,+name).
+siblingof(+name,-name).
+father(+name,+name).
