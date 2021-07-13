@@ -1,0 +1,9 @@
+courseprof(-course,+person).
+courseprof(+course,-person).
+courseta(+course,-person).
+courseta(-course,+person).
+faculty(+person).
+project(-proj,+person).
+project(+proj,-person).
+sameperson(-person,+person).
+student(+person).
