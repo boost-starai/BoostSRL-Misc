@@ -1,0 +1,15 @@
+author(-paper,+auth).
+author(+paper,-auth).
+haswordauthor(-auth,+word).
+haswordauthor(+auth,-word).
+haswordtitle(-title,+word).
+haswordtitle(+title,-word).
+haswordvenue(-venue,+word).
+haswordvenue(+venue,-word).
+sameauthor(-auth,+auth).
+sameauthor(+auth,-auth).
+sameauthor(+auth,+auth).
+title(-paper,+title).
+title(+paper,-title).
+venue(-paper,+venue).
+venue(+paper,-venue).
