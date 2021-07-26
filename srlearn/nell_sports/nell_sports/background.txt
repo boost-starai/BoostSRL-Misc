@@ -1,0 +1,16 @@
+athleteplaysforteam(+athlete,+team).
+athleteplaysforteam(-athlete,+team).
+athleteplaysforteam(+athlete,-team).
+athleteplayssport(+athlete,+sport).
+athleteplayssport(-athlete,+sport).
+athleteplayssport(+athlete,-sport).
+plays(+sport,+team).
+plays(-sport,+team).
+plays(+sport,-team).
+teamplaysagainstteam(+team,+team).
+teamplaysagainstteam(-team,+team).
+teamplaysagainstteam(+team,-team).
+teamplaysinleague(+team,-conference).
+teamplaysinleague(-team,+conference).
+teamplaysinleague(+team,+conference).
+teamplayssport(+team,+sport).

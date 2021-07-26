@@ -1,0 +1,8 @@
+wordStringInSentence(+sentenceid,+wordid,#wordstring).
+LemmaOfWordInSentence(+sentenceid,+wordid,#wordlemma).
+beginningWordInSentence(+sentenceid,-wordid).
+midWordInSentence(+sentenceid,-wordid).
+endingWordInSentence(+sentenceid,-wordid).
+nextWordInSentence(+sentenceid,+wordid,-wordid).
+nextWordInSentence(+sentenceid,-wordid,+wordid).
+sentenceContainsTarget(+sentenceid,+wordid).
