@@ -6,6 +6,7 @@ There are two possible structures:
 
 ```
 name
+├── README.md
 └── name
     ├─── background.txt
     ├─── train ─── train_pos.txt, train_neg.txt, train_facts.txt
@@ -16,6 +17,7 @@ or
 
 ```
 name
+├── README.md
 └── name
     ├─── background.txt
     ├─── fold1

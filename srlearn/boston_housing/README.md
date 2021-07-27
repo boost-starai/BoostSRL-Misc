@@ -1,5 +1,7 @@
 # boston_housing
 
+"Boston Housing" is a common benchmark dataset for regression.
+
 ## Task
 
 **Regression**: Predict the median value of homes.
