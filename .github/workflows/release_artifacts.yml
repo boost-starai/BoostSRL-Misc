@@ -8,11 +8,19 @@ jobs:
     name: Build Dataset Archives
     runs-on: ubuntu-latest
     steps:
+
       - name: 👀 Checkout
         uses: actions/checkout@v2
+
+      - name: 🔖 Get Release Tag
+        id: latesttag
+        run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}
+
       - name: 🏗️ Generate Artifacts
-        run: |
-          bash zip_artifacts.sh
+        env:
+          RELEASE_VERSION: ${{ steps.latesttag.output.tag }}
+        run: bash zip_artifacts.sh
+
       - name: 📤 Upload Artifacts
         uses: skx/github-action-publish-binaries@master
         env:
