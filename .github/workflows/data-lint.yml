@@ -1,0 +1,19 @@
+name: Lint Datasets
+on:
+  push:
+    branches: [ main ]
+    tags: '*'
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    name: Lint Datasets
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: 👀 Checkout
+        uses: actions/checkout@v2
+
+      - name: 🚨 Run Linter
+        run: bash lint_datasets.sh
