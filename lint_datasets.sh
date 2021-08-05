@@ -10,7 +10,7 @@ NC='\033[0m'
 
 # Download the linter binary if it doesn't exist.
 if [[ ! -f linter ]]; then
-  curl -L https://github.com/srlearn/linter/releases/latest/download/linter > linter
+  curl -L https://github.com/srlearn/linter/releases/latest/download/linter-linux-amd64 > linter
   chmod 755 linter
 fi
 

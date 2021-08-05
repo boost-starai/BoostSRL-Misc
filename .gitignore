@@ -1,2 +1,5 @@
 build/
 linter
+linter-darwin-amd64
+linter-linux-amd64
+linter-windows-amd64.exe
