@@ -1,0 +1,23 @@
+# icml
+
+"ICML Coauthors"
+
+## Task
+
+**Link Prediction**: Did two people coauthor together?
+
+```prolog
+affiliation(+name,-university).
+affiliation(+name,#university).
+affiliation(-name,+university).
+institutetype(+university,-type).
+institutetype(+university,#type).
+institutetype(-university,+type).
+location(+university,-location).
+location(+university,#location).
+location(-university,+location).
+researchtopic(+name,-topic).
+researchtopic(+name,#topic).
+researchtopic(-name,+topic).
+coauthor(+name,+name).
+```
