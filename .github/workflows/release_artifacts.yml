@@ -12,13 +12,9 @@ jobs:
       - name: 👀 Checkout
         uses: actions/checkout@v2
 
-      - name: 🔖 Get Release Tag
-        id: latesttag
-        run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}
-
       - name: 🏗️ Generate Artifacts
         env:
-          RELEASE_VERSION: ${{ steps.latesttag.output.tag }}
+          RELEASE_VERSION: ${{ github.event.release.tag_name }}
         run: bash zip_artifacts.sh
 
       - name: 📤 Upload Artifacts
