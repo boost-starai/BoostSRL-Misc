@@ -10,13 +10,27 @@
 
 ### Python Interface
 
-[`relational-datasets`](https://srlearn.github.io/relational-datasets/) is a Python package that assists in loading and downloading data from this repository.
+[`relational-datasets`](https://srlearn.github.io/relational-datasets/) is a
+Python package that assists in loading and downloading data from this
+repository.
 
 For example, you can load training and test sets for webkb fold-2 with:
 
 ```python
 # pip install relational-datasets
 from relational_datasets import load
+
+train, test = load("webkb", "v0.0.4", fold=2)
+```
+
+### Julia Interface
+
+[`RelationalDatasets.jl`](https://github.com/srlearn/RelationalDatasets.jl)
+is a Julia package that helps load/download data from this repository:
+
+```julia
+# ] add RelationalDatasets
+using RelationalDatasets
 
 train, test = load("webkb", "v0.0.4", fold=2)
 ```
