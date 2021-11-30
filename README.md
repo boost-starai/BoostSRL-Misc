@@ -5,7 +5,7 @@
 ## Links for Further Reading
 
 - A list of all **versions** is on the [GitHub tags page](https://github.com/srlearn/datasets/tags)
-- A list of all **datasets** is on the [relational-datasets download paage](https://srlearn.github.io/relational-datasets/downloads/)
+- A list of all **datasets** is on the [relational-datasets download page](https://srlearn.github.io/relational-datasets/downloads/)
 - **Descriptions** of each dataset are hosted with the [relational-datasets documentation](https://srlearn.github.io/relational-datasets/), for example: [`boston_housing` overview](https://srlearn.github.io/relational-datasets/dataset_descriptions/boston_housing/)
 
 ### Python Interface
