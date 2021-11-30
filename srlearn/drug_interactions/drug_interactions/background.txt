@@ -1,0 +1,15 @@
+enzyme(-enzyme,+drug).
+target(-target,+drug).
+transporter(-transporter,+drug).
+enzymesubstrate(+drug,-enzyme).
+enzymeinhibitor(+drug,-enzyme).
+enzymeinducer(+drug,-enzyme).
+targetsubstrate(+drug,-target).
+targetantagonist(+drug,-target).
+targetinducer(+drug,-target).
+targetinhibitor(+drug,-target).
+targetagonist(+drug,-target).
+transportersubstrate(+drug,-transporter).
+transporterinhibitor(+drug,-transporter).
+transporterinducer(+drug,-transporter).
+interacts(+drug,+drug).
