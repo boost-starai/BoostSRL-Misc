@@ -1,0 +1,7 @@
+machine(+id,#action).
+worn(+id,-part).
+replaceable(+part).
+irreplaceable(+part).
+
+range: part={gear, wheel, chain, engine, control_unit}.
+range: action={ok, fix, sendback}.

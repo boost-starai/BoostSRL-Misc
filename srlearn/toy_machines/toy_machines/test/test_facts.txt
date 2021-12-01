@@ -1,0 +1,11 @@
+replaceable(gear).
+replaceable(wheel).
+replaceable(chain).
+irreplaceable(engine).
+irreplaceable(control_unit).
+worn(13,chain).
+worn(13,wheel).
+worn(13,gear).
+worn(13,engine).
+worn(15,wheel).
+worn(15,gear).

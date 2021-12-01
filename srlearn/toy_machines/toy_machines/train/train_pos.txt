@@ -1,0 +1,12 @@
+machine(1,sendback).
+machine(2,ok).
+machine(3,fix).
+machine(4,sendback).
+machine(5,fix).
+machine(6,fix).
+machine(7,sendback).
+machine(8,ok).
+machine(9,fix).
+machine(10,sendback).
+machine(11,sendback).
+machine(12,fix).
