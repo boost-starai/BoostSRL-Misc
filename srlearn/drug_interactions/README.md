@@ -4,7 +4,7 @@ Drug-Drug Interactions (DDIs) occur when two drugs interact.
 
 ## Task
 
-**Binary Classification**. `interacts(+drug,+drug)`: Do two drugs interact or not?
+**Link Prediction**. `interacts(+drug,+drug)`: Do two drugs interact or not?
 
 ```prolog
 enzyme(-enzyme,+drug).
