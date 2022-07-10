@@ -1,0 +1,9 @@
+med_inc(+id,#varmed_inc).
+house_age(+id,#varhouse_age).
+ave_rooms(+id,#varave_rooms).
+ave_bedrms(+id,#varave_bedrms).
+population(+id,#varpopulation).
+ave_occup(+id,#varave_occup).
+latitude(+id,#varlatitude).
+longitude(+id,#varlongitude).
+med_house_val(+id).
